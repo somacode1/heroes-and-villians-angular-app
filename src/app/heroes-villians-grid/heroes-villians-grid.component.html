@@ -1,0 +1,13 @@
+<div class="container">
+  <!--
+
+  - create 12 rows 
+  - loop over the data we have for heroes and villians in columns  X12 columns 
+  -->
+  <div class="row" *ngFor = "let i of heroesAndVillians">
+    <div class="col">
+      <img *ngFor = "let img of heroesAndVillians" [src]=img.imgUrl [alt]=img.alt>
+    </div>
+  </div>
+
+</div>
