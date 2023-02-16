@@ -31,7 +31,16 @@
 
 - Save the changes to `angular.json`.
 
-# Step 3: Create components
+OR 
+
+Another option is to add the following  bootstrap cdn link to the `index.html` file in the `<head></head>` section:
+
+```html
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+```
+
+<!-- # Step 3: Create components
 
 - Run the command `ng generate component heroes` to generate a new component called `"heroes"`.
 - Repeat step 1 to create another component called `"villains"`.
@@ -112,31 +121,7 @@ export class AppRoutingModule { }
 
 # Step 5: Final touches
 
-- Add error handling to your app. If the user enters
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Add error handling to your app. If the user enters -->
 
 
 # App
